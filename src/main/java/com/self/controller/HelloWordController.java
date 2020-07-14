@@ -10,6 +10,7 @@ public class HelloWordController {
     @RequestMapping("/hello/getInof")
     @ResponseBody
     public String getInfo(){
+        System.out.println("333");
         System.out.println("aaa");
         return "11111";
     }
